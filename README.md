@@ -1,16 +1,63 @@
-# React + Vite
+# Finance Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive finance dashboard built using React, Tailwind CSS, and Zustand.
 
-Currently, two official plugins are available:
+## Features
+Dashboard Overview (Balance, Income, Expenses)
+Spending Breakdown Chart
+Transactions Table with Search
+Role-Based UI (Admin & Viewer)
+Insights Section (analytics from data)
+Dark Mode Support
+Data Persistence using Local Storage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Tech Stack
 
-## React Compiler
+* React (Vite)
+* Tailwind CSS
+* Zustand (State Management)
+* Recharts (Charts)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+##  Installation
 
-## Expanding the ESLint configuration
+```bash
+git clone <your-repo-url>
+cd finance-dashboard
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Roles
+
+* **Viewer** → Can only view data
+* **Admin** → Can add transactions
+
+## Insights Included
+
+* Total Income vs Expense
+* Highest Spending Category
+* Financial Health Indicator
+
+## Live Demo
+
+(Add after deployment)
+
+## Folder Structure
+
+
+src/
+ ├── components/
+ ├── store/
+ ├── App.jsx
+ └── main.jsx
+
+
+## Future Improvements
+Export to CSV
+Backend integration
+Authentication system
+Advanced filters
+
+## Author
+
+Neha Sonowal
