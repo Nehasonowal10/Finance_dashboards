@@ -39,8 +39,7 @@ npm run dev
 * Financial Health Indicator
 
 ## Live Demo
-
-(Add after deployment)
+https://finance-dashboards-delta.vercel.app
 
 ## Folder Structure
 
